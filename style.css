@@ -28,6 +28,9 @@ button {
 }
 
 /* section common */
+main {
+  text-align: center;
+}
 .title {
   color: #272727;
   font-size: 40px;
@@ -71,7 +74,6 @@ button {
 
 /*  Featured section styles */
 .featured {
-  text-align: center;
   margin: 100px 0px;
 }
 
@@ -126,9 +128,7 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-.service .single_service {
-  text-align: center;
-}
+
 .service .single_service .icon img {
   width: 85px;
   height: 85px;
@@ -143,7 +143,6 @@ button {
 /*  Hot Deal section styles */
 .hot_deal {
   height: 620px;
-  text-align: center;
   padding: 0px 400px;
   margin-bottom: 100px;
   display: flex;
@@ -168,7 +167,6 @@ button {
 /* Instagram section style  */
 
 .instagram {
-  text-align: center;
   margin-bottom: 100px;
 }
 .instagram .description {
@@ -180,4 +178,33 @@ button {
 .instagram .instagram_img img {
   width: 342px;
   height: 396px;
+}
+
+/* Subscribe section style  */
+.subscribe {
+  padding: 120px 287px;
+  background-image: url(./assets/images/Rectangle9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subscribe .description {
+  margin: 24px auto;
+}
+.subscribe form {
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe form input {
+  display: block;
+  width: 100%;
+  border: 1px solid transparent;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+}
+
+.subscribe form button {
+  margin-left: 10px;
 }
