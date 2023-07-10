@@ -26,6 +26,9 @@ button {
   font-weight: 700;
   cursor: pointer;
 }
+.text_theme {
+  color: #e55473;
+}
 
 /* section common */
 main {
@@ -156,9 +159,7 @@ main {
   font-size: 40px;
   font-weight: 800;
 }
-.hot_deal .content .title .text_theme {
-  color: #e55473;
-}
+
 .hot_deal .thimble img {
   width: 318px;
   height: 420px;
@@ -187,6 +188,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 100px;
 }
 .subscribe .description {
   margin: 24px auto;
@@ -207,4 +209,22 @@ main {
 
 .subscribe form button {
   margin-left: 10px;
+}
+
+/* footer section style  */
+
+footer {
+  padding: 128px 0px;
+  text-align: center;
+  background-color: #111010;
+}
+footer .title {
+  color: #ffff;
+}
+footer .description {
+  margin: 24px auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+footer p {
+  color: rgba(255, 255, 255, 0.4);
 }
