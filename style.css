@@ -27,6 +27,21 @@ button {
   cursor: pointer;
 }
 
+/* section common */
+.title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.description {
+  max-width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0px;
+}
+
 /*  hero section styles */
 .hero_area {
   background: rgba(229, 84, 115, 0.1);
@@ -59,19 +74,9 @@ button {
   text-align: center;
   margin: 100px 0px;
 }
-.featured .featured_title {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
-}
-.featured .featured_description {
-  max-width: 594px;
-  margin: 0px auto;
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-top: 24px;
+
+.featured .description {
+  margin: 24px auto;
 }
 .featured .featured_content {
   margin-top: 30px;
@@ -154,14 +159,6 @@ button {
 }
 .hot_deal .content .title .text_theme {
   color: #e55473;
-}
-.hot_deal .content .description {
-  max-width: 594px;
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin: 24px 0px;
 }
 .hot_deal .thimble img {
   width: 318px;
