@@ -107,3 +107,29 @@ button {
   font-weight: 800;
   line-height: 35px;
 }
+
+/*  Service section styles */
+
+.service {
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 0px 174px;
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service .single_service {
+  text-align: center;
+}
+.service .single_service .icon img {
+  width: 85px;
+  height: 85px;
+}
+.service .single_service .service_name {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
