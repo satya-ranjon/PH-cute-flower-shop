@@ -134,3 +134,36 @@ button {
   font-weight: 600;
   line-height: 35px;
 }
+
+/*  Hot Deal section styles */
+.hot_deal {
+  height: 620px;
+  text-align: center;
+  padding: 0px 400px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e554730d;
+}
+
+.hot_deal .content .title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.hot_deal .content .title .text_theme {
+  color: #e55473;
+}
+.hot_deal .content .description {
+  max-width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0px;
+}
+.hot_deal .thimble img {
+  width: 318px;
+  height: 420px;
+}
