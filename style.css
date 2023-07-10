@@ -164,3 +164,20 @@ button {
   width: 318px;
   height: 420px;
 }
+
+/* Instagram section style  */
+
+.instagram {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.instagram .description {
+  margin: 24px auto;
+}
+.instagram .row {
+  margin-top: 42px;
+}
+.instagram .instagram_img img {
+  width: 342px;
+  height: 396px;
+}
