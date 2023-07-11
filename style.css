@@ -187,6 +187,14 @@ main {
   margin-bottom: 100px;
   text-align: center;
 }
+.blog button {
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+.blog button:hover {
+  background-color: #ef658366;
+  color: #686767;
+}
 .blog .row {
   margin-top: 40px;
 }
@@ -195,7 +203,7 @@ main {
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  height: 370px;
+  height: 400px;
 }
 .blog .single_blog:before {
   content: "";
@@ -239,6 +247,10 @@ main {
   margin: 5px;
   cursor: pointer;
   text-decoration-line: underline;
+  transition: 0.4s;
+}
+.blog .single_blog .blog_details .categories span:hover {
+  color: #fff;
 }
 .blog .single_blog .blog_details .blog_title {
   font-size: 20px;
