@@ -8,6 +8,8 @@
 body {
   font-family: "Source Sans 3", sans-serif;
 }
+
+/*  common styles*/
 .container {
   margin: 0px 240px;
 }
@@ -30,7 +32,6 @@ button {
   color: #e55473;
 }
 
-/* section common */
 main {
   text-align: center;
 }
